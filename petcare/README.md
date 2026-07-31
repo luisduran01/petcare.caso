@@ -27,7 +27,7 @@ Sistema completo de gestión conectado al endpoint de Inacode (`apiclases.inacod
 ## ⚙️ Arquitectura y Soluciones Técnicas
 
 * **Estructura de Carpetas:** Separación lógica en `/components`, `/pages` y `/services` para un código limpio, escalable y mantenible.
-* **Manejo de CORS y WAF:** Configuración de un Proxy inverso en `vite.config.js` (`/api`) para eludir bloqueos de CORS en el navegador y evasión de falsos positivos en el Firewall Imunify360 mediante cabeceras `User-Agent`.
+* **Manejo de CORS y WAF:** Se configuró un proxy de desarrollo en Vite para gestionar las solicitudes a la API y evitar problemas de CORS durante el desarrollo.
 * **Headers Estrictos:** Inyección de `Content-Type: application/json` en los servicios de API para evitar errores `415 Unsupported Media Type`.
 
 ## 🔧 Instalación y Ejecución Local
