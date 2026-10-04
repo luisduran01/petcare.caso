@@ -123,7 +123,7 @@ const CrudMascotas = () => {
   return (
     <div className="container py-5 mt-4">
       <h2 className="fw-bold mb-2 text-center text-primary">Control de Reservas Médicas</h2>
-      <p className="text-center text-muted mb-5">Modelo de datos centralizado y sincronizado con la API de Inacode</p>
+      <p className="text-center text-muted mb-5">Modelo de datos centralizado y sincronizado con la API</p>
       
       <div className="row">
         {/* Sección del Formulario */}
@@ -216,7 +216,7 @@ const CrudMascotas = () => {
               {loading ? (
                 <div className="text-center py-5">
                   <div className="spinner-border text-primary" role="status"></div>
-                  <p className="mt-2 text-muted">Conectando con apiclases.inacode.cl...</p>
+                  <p className="mt-2 text-muted">Conectando con la API...</p>
                 </div>
               ) : (
                 <div className="table-responsive">
